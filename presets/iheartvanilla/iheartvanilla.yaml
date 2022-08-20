@@ -187,11 +187,3 @@ unpackSteps:
     fileIndex: 0
     type: "DELTA_PLUGIN"
     data: []
-
-# COPY step that doesn't assume a specific root
-# ['MODINSTALLPATH/', 'OPENMWPATH/resources/shaders']
-# OS detection on Mac -> (/Contents/ is a problem/
-# On macOS, find those at /Applications/OpenMW.app/Contents/Resources/resources/shaders
-# RESOURCES step
-# SHADERS step
-# download and extract Delta Plugin
