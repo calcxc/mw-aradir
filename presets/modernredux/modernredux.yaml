@@ -1,0 +1,643 @@
+displayName: "Modern Redux"
+name: "modernredux"
+lastModified: 1657996494
+listUrl: "None"
+# description?
+downloadSteps:
+  - type: "nexus"
+    modId: 45096
+    siteFileName: "Patch for Purists"
+  # UMOPP
+  - type: "nexus"
+    modId: 43931
+    siteFileName: "Unofficial Morrowind Official Plugins Patched"
+  # MOP
+  - type: "nexus"
+    modId: 45384
+    siteFileName: "Morrowind Optimization Patch"
+  # Graphic Herbalism
+  - type: "nexus"
+    modId: 46599
+    siteFileName: "Graphic Herbalism MWSE - OpenMW"
+  - type: "nexus"
+    modId: 46599
+    siteFileName: "GH Patches and Replacers"
+  # Project Atlas
+  - type: "nexus"
+    modId: 45399
+    siteFileName: "Project Atlas"
+  - type: "nexus"
+    modId: 45399
+    siteFileName: "Textures - MET"
+  # Rope Fence Fix
+  - type: "nexus"
+    modId: 45741
+    siteFileName: "RopeFenceFix 1.4"
+  # MET
+  - type: "nexus"
+    modId: 46221
+    siteFileName: "Morrowind Enhanced Textures 5.2"
+  - type: "nexus"
+    modId: 46221
+    siteFileName: "Interface and main menu"
+
+  # ======= ^ iheartvanilla template
+
+  # OAAB
+  - type: "nexus"
+    modId: 49042
+    siteFileName: "OAAB_Data"
+
+  # Tamriel Data
+  - type: "nexus"
+    modId: 44537
+    siteFileName: "Tamriel Data (HD)"
+
+  # Races Redone
+  - type: "nexus"
+    modId: 47803
+    siteFileName: "Galleo Races Redone Pluginless_v1.0"
+
+  # Groundcover
+  - type: "nexus"
+    modId: 46733
+    siteFileName: "Remiros' Groundcover"
+  
+  # Weapon Sheathing
+  - type: "nexus"
+    modId: 46069
+    siteFileName: "WeaponSheathing1.6-OpenMW"
+
+  # Creatures
+  - type: "nexus"
+    modId: 50137
+    siteFileName: "CreaturesMeshes"
+  - type: "nexus"
+    modId: 50137
+    siteFileName: "CreaturesTexturesOpenMW"
+
+  # Landscape Retexture
+  - type: "nexus"
+    modId: 42575
+    siteFileName: "Landscape Retexture 2K"
+  - type: "nexus"
+    modId: 42575
+    siteFileName: "Bloodmoon Landscape Retexture"
+  - type: "nexus"
+    modId: 42575
+    siteFileName: "Landscape retexture - OpenMW Normal map and Parallax patch"
+
+  # Caverns bump mapped
+  - type: "nexus"
+    modId: 42412
+    siteFileName: "Caverns Bump mapped"
+  - type: "nexus"
+    modId: 42412
+    siteFileName: "Bloodmoon - Caverns Bump mapped"
+
+  # BCOM
+  - type: "nexus"
+    modId: 49231
+    siteFileName: "Beautiful Cities of Morrowind - Core"
+  - type: "nexus"
+    modId: 49231
+    siteFileName: "Beautiful Cities of Morrowind - Patches"
+  
+  # Price Balance
+  - type: "nexus"
+    modId: 45529
+    siteFileName: "Price Balance"
+
+  # Marksman Overhaul
+  - type: "nexus"
+    modId: 22933
+    siteFileName: "Marksman Overhaul"
+
+  # Ammo Auto Equip
+  - type: "nexus"
+    modId: 45967
+    siteFileName: "Auto Ammo Equip for OpenMW"
+
+  # Armor and Weapon Rebalance
+  - type: "nexus"
+    modId: 50053
+    siteFileName: "Another Armor n Weapon Rebalance"
+
+  # Correct UV Rocks
+  - type: "nexus"
+    modId: 46104
+    siteFileName: "Correct_UV_Rocks_1.5"
+
+  # Better Robes
+  - type: "nexus"
+    modId: 42773
+    siteFileName: "Better Robes ENG"
+
+  # Robe Overhaul
+  - type: "nexus"
+    modId: 43748
+    siteFileName: "Robe Overhaul"
+
+  # Wares
+  - type: "nexus"
+    modId: 49205
+    siteFileName: "Wares"
+  
+  # Killing spree weapons
+  - type: "nexus"
+    modId: 49668
+    siteFileName: "Killing Spree"
+
+  # Main Quest Overhaul
+  - type: "nexus"
+    modId: 46913
+    siteFileName: "Main Quest Overhaul"
+
+  # Magic Diversity
+  - type: "nexus"
+    modId: 43380
+    siteFileName: "MAGIC DIVERSITY v1.0"
+
+  # Immersive Movement
+  - type: "nexus"
+    modId: 51300
+    siteFileName: "Immersive Movement"
+
+  # Dubdilla Location fix
+  - type: "nexus"
+    modId: 46720
+    siteFileName: "Dubdilla Location Fix"
+
+  # Mines and Caverns
+  - type: "nexus"
+    modId: 44893
+    siteFileName: "Mines and Caverns"
+
+  # Friends and Foes
+  - type: "nexus"
+    modId: 49251
+    siteFileName: "FF"
+  - type: "nexus"
+    modId: 49251
+    siteFileName: "OpenMW book fix"
+  - type: "nexus"
+    modId: 49251
+    siteFileName: "Tweaked animation files for OpenMW thanks to Vidi_Aquam"
+
+  # Populated Vvardenfell
+  - type: "nexus"
+    modId: 49213
+    siteFileName: "Populated Vvardenfell 1.5"
+
+  # Realistic Stealth
+  - type: "nexus"
+    modId: 49021
+    siteFileName: "Realistic Stealth 1.1"
+
+  # Better Clothes Complete
+  - type: "nexus"
+    modId: 47549
+    siteFileName: "Better Clothes Complete"
+
+  # Pickpocket Rebalance
+  - type: "nexus"
+    modId: 51558
+    siteFileName: "Pickpocket Rebalance"
+  
+  # Marksman's Eye
+  - type: "nexus"
+    modId: 51141
+    siteFileName: "Marksman's Eye for OpenMW-Lua"
+
+  # Crossbows Enhanced
+  - type: "nexus"
+    modId: 48586
+    siteFileName: "Crossbows Enhanced"
+
+  # True Skyrimized Torches - brighter torches
+  - type: "nexus"
+    modId: 43192
+    siteFileName: "True Skyrimized Torches"
+
+  # Fair Magicka Regen
+  - type: "nexus"
+    modId: 39350
+    siteFileName: "Fair Magicka Regen v2B"
+
+  # New Hairs for MacKom's Heads
+  - type: "nexus"
+    modId: 47398
+    siteFileName: "New Hairs for MacKom Races Redone"
+
+  # Indy Bank 14887
+  # - type: "nexus"
+  #   modId: 14887
+  #   siteFileName: "Bank_v24"
+  # - type: "nexus"
+  #   modId: 14887
+  #   siteFileName: "Bank_v24_OMW"
+
+# automatically download delta plugin
+# or not if the user adds an optional path
+# Maybe allow tags like "Patch" for routing to different folders? 
+# tag: "Patch" | "Performance" | "Gameplay" | "Fixes" etc
+unpackSteps:
+  - modId: 45096
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 43931
+    fileIndex: 0
+    type: "DATA"
+    data: ["08 UMOPP Merged", "02 bitter coast sounds"]
+
+  - modId: 45384
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "01 Lake Fjalding Anti-Suck", "02 Weapon Sheathing Patch"]
+
+  - modId: 46599
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core + Vanilla Meshes", "01 Optional - Smoothed Meshes"]
+  - modId: 46599
+    fileIndex: 1
+    type: "DATA"
+    data: ["00 Correct UV Ore + README"]
+
+  - modId: 45399
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "05 Wood Poles - Hi-Res Texture"]
+  - modId: 45399
+    fileIndex: 1
+    type: "DATA"
+    data: ["01 Textures - MET"]
+
+  - modId: 45741
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 46221
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 46221
+    fileIndex: 1
+    type: "DATA"
+    data: [""]
+
+  # ======= ^ iheartvanilla template
+
+  - modId: 49042
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "01 Epic Plants Patch"]
+
+  # Tamriel Data
+  - modId: 44537
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core"]
+  
+  # Races Redone
+  - modId: 47803
+    fileIndex: 0
+    type: "DATA"
+    data: ["Data Files"]
+
+  # Groundcover
+  - modId: 46733
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core OpenMW", "01b Thicker Grass OpenMW"]
+  - modId: 46733
+    fileIndex: 0
+    type: "DATA_DIRECT"
+    data:
+      - "groundcover=Rem_GL.esp"
+      - "groundcover=Rem_WG.esp"
+      - "groundcover=Rem_AL.esp"
+      - "groundcover=Rem_BC.esp"
+      - "groundcover=Rem_Solstheim.esp"
+      - "groundcover=Rem_AC.esp"
+      - "groundcover=Rem_AI.esp"
+  - modId: 46733
+    fileIndex: 0
+    type: "SETTINGS"
+    data:
+      - "[Groundcover]"
+      - "enabled = true"
+      - "density = 1.0"
+      - "min chunk size = 0.5"
+      - "stomp mode = 2"
+      - "stomp intensity = 2"
+
+  # Weapon Sheathing
+  - modId: 46069
+    fileIndex: 0
+    type: "DATA"
+    data: ["Data Files"]
+  - modId: 46069
+    fileIndex: 0
+    type: "SETTINGS"
+    data:
+      - "shield sheathing = true"
+      - "weapon sheathing = true"
+      - "use additional anim sources = true"
+
+  # Creatures
+  - modId: 50137
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 50137
+    fileIndex: 1
+    type: "DATA"
+    data: [""]
+
+
+  # landscape retexture
+  - modId: 42575
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 42575
+    fileIndex: 1
+    type: "DATA"
+    data: [""]
+  - modId: 42575
+    fileIndex: 2
+    type: "DATA"
+    data: ["Landscape retexture Normal map & parallax"]
+
+  # Caverns Bumpmapped
+  - modId: 42412
+    fileIndex: 0
+    type: "DATA"
+    data: ["Caverns Bump mapped 1.3"]
+  - modId: 42412
+    fileIndex: 1
+    type: "DATA"
+    data: ["Bloodmoon - Caverns Bump mapped 1.0"]
+  - modId: 42412
+    fileIndex: 0
+    type: "SETTINGS"
+    data:
+      - "[Shaders]"
+      - "apply lighting to environment maps = true"
+
+  # BCOM
+  - modId: 49231
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "05 Grass Patches/01 Remiros Groundcover", "01 Waterworks Core", "04 Project Atlas and GiTD Patches/01 Project Atlas Patch"]
+  - modId: 49231
+    fileIndex: 1
+    type: "DATA"
+    data: ["01 Patch for Purists Patch", "35 Mines and Caverns", "79 Main Quest Overhaul"]
+  - modId: 49231
+    fileIndex: 0
+    type: "DATA_DIRECT"
+    data: ["fallback-archive=PT_Data.bsa", "fallback-archive=TR_Data.bsa"]
+
+  # Main Quest Overhaul
+  - modId: 46913
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Price Balance
+  - modId: 45529
+    fileIndex: 0
+    type: "DATA"
+    data: ["Price Balance 1.2/Price Balance - Items only"]
+
+  # Xenn's Marksman Overhaul
+  - modId: 22933
+    fileIndex: 0
+    type: "DATA"
+    data: ["Xenn's Marksman Overhaul"]
+
+  # Ammo auto equip
+  - modId: 45967
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Armor and weapon rebalance
+  - modId: 50053
+    fileIndex: 0
+    type: "DATA"
+    data: ["", "Data Files"]
+
+  # Better Robes
+  - modId: 42773
+    fileIndex: 0
+    type: "DATA"
+    data: ["", "Data Files"]
+
+  # Robe Overhaul
+  - modId: 43748
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Wares
+  - modId: 49205
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Master file", "01 Vvardenfell"]
+
+  # Killing Spree
+  - modId: 49668
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Magic Diversity
+  - modId: 43380
+    fileIndex: 0
+    type: "DATA"
+    data: ["Magic Diversity/data files"]
+
+  # Immersive Movement
+  - modId: 51300
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Dubdilla Location fix
+  - modId: 46720
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Mines and Caverns
+  - modId: 44893
+    fileIndex: 0
+    type: "DATA"
+    data: ["Mines Caverns"]
+
+  # Friends and Foes
+  - modId: 49251
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core"]
+  - modId: 49251
+    fileIndex: 1
+    type: "DATA"
+    data: [""]
+  - modId: 49251
+    fileIndex: 2
+    type: "DATA"
+    data: [""]
+
+  # Populated Vvardenfell
+  - modId: 49213
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Better Clothes Complete
+  - modId: 47549
+    fileIndex: 0
+    type: "DATA"
+    data: ["#Data Files", "Darknut's HD Retexture"]
+
+  # Realistic Stealth
+  - modId: 49021
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Pickpocket rebalance
+  - modId: 51558
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Markman's Eye
+  - modId: 51141
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Crossbows Enhanced
+  - modId: 48586
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "02 (ESP) New Crossbows + Bolts", "05 (Patch) Weapon Sheathing"]
+
+  # True Skyrimized Torches - brighter torches
+  - modId: 43192
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # Fair Magicka Regen 
+  - modId: 39350
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # New Hairs for MacKom Races Redone
+  - modId: 47398
+    fileIndex: 0
+    type: "DATA"
+    data: ["Data files"]
+
+  # IndyBank
+  # - modId: 14887
+  #   fileIndex: 0
+  #   type: "DATA"
+  #   data: [""]
+  # - modId: 14887
+  #   fileIndex: 1
+  #   type: "DATA"
+  #   data: [""]
+
+  - modId: 0
+    fileIndex: 0
+    type: "DATA_DIRECT"
+    data: ["data=\"D:/mods/openMW/shared/TEST_PLUGIN/\""]
+
+  # Settings
+  - modId: 0
+    fileIndex: 0
+    type: "SETTINGS"
+    data: ["[Terrain]", "distant terrain = true", "object paging active grid = true", "object paging min size = 0.023"]
+  - modId: 0
+    fileIndex: 0
+    type: "SETTINGS"
+    data: 
+    - "[Shadows]"
+    - "enable shadows = false"
+    - "actor shadows = false"
+    - "player shadows = false"
+    - "terrain shadows = false"
+    - "object shadows = false"
+
+  #==========
+  # Master Content
+  - modId: 0
+    fileIndex: 0
+    type: "CONTENT"
+    data: 
+      - "Patch for Purists.esm"
+      - "Patch for Purists - Semi-Purist Fixes.ESP"
+      - "Patch for Purists - Book Typos.ESP"
+      - "Unofficial Morrowind Official Plugins Patched.ESP"
+      - "correctUV Ore Replacer_respawning.esp"
+      - "Lake Fjalding Anti-Suck.ESP"
+      - "Tamriel_Data.esm"
+      - "OAAB_Data.esm"
+
+      - "BCOM_pathgrid_reset.esp"
+      - "Beautiful cities of morrowind.esp"
+      - "Interior exterior flag reset.ESP"
+      - "BCOM_PfP_patch.ESP"
+
+      - "Price Balance - Items.ESP"
+
+      - "Xenn's Marksman Overhaul.esp"
+      - "Xenn's Marksman Overhaul - Vanilla.esp"
+
+      - "Auto Ammò Equip for OpenMW.omwaddon"
+      - "earmors.esp"
+      - "eweapons.esp"
+
+      - "Better Robes.ESP"
+      - "Wares-base.esm"
+      - "Wares_Vvardenfell.ESP"
+      - "Killing Spree.esp"
+
+      - "Main_Quest_Overhaul.ESP"
+      - "Magic Diversity 1.0.ESP"
+
+      - "OikImmMovement.ESP"
+      - "Dubdilla Location Fix.ESP"
+      - "Clean_Mines Caverns.esp"
+
+      - "F&F_base.esm"
+      - "PopulatedVvardenfell 1.5.esp"
+      - "Realistic Stealth 1.1.ESP"
+      - "Better Clothes Complete.ESP"
+
+      - "Pickpocket Rebalance 0.15 Mod and 100% chance max.ESP"
+      - "marksmans-eye.omwaddon"
+      - "marksmans-eye.omwscripts"
+
+      - "CrossbowsEnhanced+Bolts.ESP"
+      - "True Skyrimized Torches.esp"
+      - "Fair Magicka Regen 2.0b.esp"
+      - "Hag Hair for MacKom.ESP"
+      # - "INDYBANK.ESP"
+      - "riposte.omwscripts"
+
+  - modId: 0
+    fileIndex: 0
+    type: "DELTA_PLUGIN"
+    data: []

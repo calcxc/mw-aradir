@@ -1,0 +1,197 @@
+displayName: "I Heart Vanilla"
+name: "iheartvanilla"
+lastModified: 1657996494
+listUrl: "https://modding-openmw.com/lists/one-day-morrowind-modernization/"
+# description?
+downloadSteps:
+  - type: "nexus"
+    modId: 45096
+    siteFileName: "Patch for Purists"
+  - type: "nexus"
+    modId: 43931
+    siteFileName: "Unofficial Morrowind Official Plugins Patched"
+  - type: "nexus"
+    modId: 45384
+    siteFileName: "Morrowind Optimization Patch"
+  - type: "nexus"
+    modId: 46599
+    siteFileName: "Graphic Herbalism MWSE - OpenMW"
+  - type: "nexus"
+    modId: 46599
+    siteFileName: "GH Patches and Replacers"
+  - type: "nexus"
+    modId: 45399
+    siteFileName: "Project Atlas"
+  - type: "nexus"
+    modId: 45399
+    siteFileName: "Textures - MET"
+  - type: "nexus"
+    modId: 45741
+    siteFileName: "RopeFenceFix 1.4"
+  - type: "nexus"
+    modId: 46221
+    siteFileName: "Morrowind Enhanced Textures 5.2"
+  - type: "nexus"
+    modId: 46221
+    siteFileName: "Interface and main menu"
+  - type: "nexus"
+    modId: 50093
+    siteFileName: "Familiar Faces by Caleb"
+  - type: "nexus"
+    modId: 46232
+    siteFileName: "OpenMW Containers Animated"
+  - type: "nexus"
+    modId: 46069
+    siteFileName: "WeaponSheathing1.6-OpenMW"
+  # the lists added Morrowind Optimization Patch again, but we just need to add the sheathing patch from the main download to data
+  - type: "nexus"
+    modId: 45886
+    siteFileName: "Glow in the Dahrk"
+  # Load the Project Atlas Glow in the Dahrk patch data after Glow in the Darhk itself
+  - type: "nexus"
+    modId: 50087
+    siteFileName: "Nords shut your windows"
+  - type: "nexus"
+    modId: 46854
+    siteFileName: "Fonts"
+  - type: "nexus"
+    modId: 46854
+    siteFileName: "HD texture buttons (English)"
+  - type: "nexus"
+    modId: 49662
+    siteFileName: "Big Icons - OpenMW"
+  - type: "nexus"
+    modId: 50534
+    siteFileName: "Cantons_on_the_Global_Map_v1.1"
+  - type: "nexus"
+    modId: 49391
+    siteFileName: "Vanilla Inspired Water for Open MW"
+# automatically download delta plugin
+# or not if the user adds an optional path
+# Maybe allow tags like "Patch" for routing to different folders? 
+# tag: "Patch" | "Performance" | "Gameplay" | "Fixes" etc
+unpackSteps:
+  - modId: 45096
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 43931
+    fileIndex: 0
+    type: "DATA"
+    data: ["08 UMOPP Merged", "02 bitter coast sounds"]
+  - modId: 45384
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "01 Lake Fjalding Anti-Suck", "02 Weapon Sheathing Patch"]
+  - modId: 46599
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core + Vanilla Meshes", "01 Optional - Smoothed Meshes"]
+  - modId: 46599
+    fileIndex: 1
+    type: "DATA"
+    data: ["00 Correct UV Ore + README"]
+  - modId: 45399
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "05 Wood Poles - Hi-Res Texture"]
+  - modId: 45399
+    fileIndex: 1
+    type: "DATA"
+    data: ["01 Textures - MET"]
+  - modId: 45741
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 46221
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 46221
+    fileIndex: 1
+    type: "DATA"
+    data: [""]
+  - modId: 50093
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 46232
+    fileIndex: 0
+    type: "DATA"
+    data: ["Containers Animated"]
+  - modId: 46069
+    fileIndex: 0
+    type: "DATA"
+    data: ["Data Files"]
+  - modId: 46069
+    fileIndex: 0
+    type: "SETTINGS"
+    data:
+      - "shield sheathing = true"
+      - "weapon sheathing = true"
+      - "use additional anim sources = true"
+  - modId: 45384
+    fileIndex: 0
+    type: "DATA"
+    data: ["02 Weapon Sheathing Patch"]
+  - modId: 45886
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "03 Telvanni Dormers on Vvardenfell", "04 Raven Rock Glass Windows"]
+  - modId: 45399
+    fileIndex: 0
+    type: "DATA"
+    data: ["06 Glow in the Dahrk Patch"]
+  - modId: 50087
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "03 Vanilla style sunrays"]
+  - modId: 46854
+    fileIndex: 0
+    type: "INSTALL_TO_OMW_FOLDER"
+    data: ["Fonts", ""]
+  - modId: 46854
+    fileIndex: 1
+    type: "DATA"
+    data: ["HiResUI"]
+  - modId: 49662
+    fileIndex: 0
+    type: "DATA"
+    data: ["07 8X Textured"]
+  - modId: 50534
+    fileIndex: 0
+    type: "DATA"
+    data: ["Data Files"]
+  - modId: 49391
+    fileIndex: 0
+    type: "INSTALL_TO_OMW_FOLDER"
+    data: ["", "resources/shaders"]
+  - modId: 49391
+    fileIndex: 0
+    type: "RESOURCES"
+    data: ["", "resources/shaders"]
+  - modId: 0
+    fileIndex: 0
+    type: "CONTENT"
+    data: 
+      - "Patch for Purists.esm"
+      - "Unofficial Morrowind Official Plugins Patched.ESP"
+      - "correctUV Ore Replacer_respawning.esp"
+      - "Patch for Purists - Book Typos.ESP"
+      - "Containers Animated.esp"
+      - "Lake Fjalding Anti-Suck.ESP"
+      - "GITD_Telvanni_Dormers.ESP"
+      - "GITD_WL_RR_Interiors.esp"
+      - "Cantons_on_the_Global_Map_v1.1.esp"
+  - modId: 0
+    fileIndex: 0
+    type: "DELTA_PLUGIN"
+    data: []
+
+# COPY step that doesn't assume a specific root
+# ['MODINSTALLPATH/', 'OPENMWPATH/resources/shaders']
+# OS detection on Mac -> (/Contents/ is a problem/
+# On macOS, find those at /Applications/OpenMW.app/Contents/Resources/resources/shaders
+# RESOURCES step
+# SHADERS step
+# download and extract Delta Plugin

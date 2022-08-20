@@ -1,0 +1,45 @@
+# Aradir - A Quick Passage into Modded Morrowind
+
+### Useage
+
+## Downloads
+### Optional Steps
+1. Open Chrome and navigate to settings/Downloads
+2. Set your default download location to the folder where you want your mod downloads to go, ie "downloads/OpenMW Mods"
+
+
+4. Place the executable and all provided files in a folder not requiring administrator privilges
+5. Install and Open Google Chrome
+6. Open settings/Downloads and turn off the "ask where to save each file before downloading" (this allows you to download each mod in one click)
+7. Login to Nexus Mods and check the remember me option
+8. Close Chrome completely (May still work while open, but just in case)
+9. Run aradir.exe
+10. Select your preset list, like One Day Modernization
+11. Enter your config and mod folder paths (where your download folder is in Chrome and where you want the game to pull your mods from - these need to be different)
+12. Hit Start!
+13. Each time, you'll be brought to the screen to start your mod downloads, just click "Download"
+14. If you set your default download location to a custom folder path, set it back to "yourusername/Downloads"
+
+Note: You can temporarily change your default download location in Chrome to be your morrowind mod download folder so all of them will be in one place ie 'downloads/OpenMW Mods".
+Make sure you enter this path into aradir before it runs.
+
+
+## Unpacking
+1. Click the "Install Mods" button to copy mods to the correct directories
+
+
+(These steps assume you already have an unmodified OpenMW 0.48 or greater installed)
+## Steps
+1. Download DeltaPlugin and extract it into a folder, keep this path for later
+2. Download the Aradir and Extract it into a folder so that the executable and other files are together
+
+
+## A Note to Mod Creators
+
+There may be some of you that aren't a fan of this, but let me assuage your fears.
+1. This is specficially for OpenMW and it will always be so.
+2. This is *not* a singular package that does away with mod creator's name, just a tool used to make an existing process better.
+3. If you have a donation section on Nexus, the user will still see it before they decide to download the mod.
+4. I'd love to work more creator identity (names and links) into the UI if I can in future to make sure you all get the eyes you deserve for the hard work you've put into building amazing content for Morrowind.
+
+I built Aradir because the current process is broken. Spending anywhere from 2 to 10+ hours to configure mods for a game that another person has already figured work together is truly insane. Users are already using modlists, but are put through a gauntlet of getting everything to work instead of being able to just play a video game.

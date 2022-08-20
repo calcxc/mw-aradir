@@ -1,0 +1,11 @@
+preset: "modernredux" # or null
+nodownload: false
+sharedInstallFolder: true
+
+# if any are null or empty, error is thrown
+downloads: "C:/Users/k1kok/Downloads/vanillatest"
+modinstall: "D:/mods/openMW"
+gamedata: "D:/SteamLibrary/steamapps/common/Morrowind"
+settings: "C:/Users/k1kok/Documents/My Games/OpenMW"
+openmw: "C:/Users/k1kok/Downloads/OpenMWJul22"
+delta: "C:/Users/k1kok/Downloads/DeltaPlugin"

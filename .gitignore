@@ -1,0 +1,8 @@
+
+*.exe
+*.bin
+*.log
+*.xml
+manifests/*.*
+presets/*/*.cfg
+presets/*/shaders.yaml
