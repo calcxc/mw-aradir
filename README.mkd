@@ -34,8 +34,6 @@ Mac and Linux support could be fairly easy, but I'm focused on getting Windows s
 1. Open Chrome and navigate to Settings > Downloads
 2. Set your default download location to the folder where you want your mod downloads to go, ie "Users/Downloads/OpenMW Mods"
 3. Close Chrome
-4. Open preferences.yaml and fill in the following
-
 
 ## **Mandatory Steps**
 
@@ -43,10 +41,14 @@ Mac and Linux support could be fairly easy, but I'm focused on getting Windows s
 2. Download the Aradir and extract it into a folder so that the executable and other files are together.
 3. Open Chrome and sign into Nexus Mods, then exit.
 4. Open `preferences.yaml` and add the required paths.
+5. If you've filled in all of the paths correctly and don't need to pass arguments, double click on the `aradir` executable and that will start the process!
 
 ## **Paths**
 
-* `downloads` is the folder where you downloaded all of your mod archives. Aradir will look in this folder to find mods.
+* `downloads` is the folder where you downloaded all of your mod archives. Aradir will look in this folder to find mods. 
+
+  > Suggested: `<path to downloads>/Downloads/OpenMW Mods` or `<path to downloads>/Downloads/mods/OpenMW`
+
 * `modinstall` is the folder where you want your mods to be extracted to and where OpenMW will look for mod data.
 * `gamedata` is where your Morrowind files are, and where you would see the Morrowind executable.
 * `settings` is there folder where OpenMW keeps game settings, usually `C:/Users/<username>/My Games/OpenMW` on Windows.
