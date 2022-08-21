@@ -60,6 +60,7 @@ Mac and Linux support could be fairly easy, but I'm focused on getting Windows s
 ## A Note to Mod Creators
 
 There may be some of you that aren't a fan of this, but let me assuage your fears.
+
 1. This is specficially for OpenMW and it will always be so.
 2. This is *not* a singular package that does away with mod creator's name, just a tool used to make an existing process better.
 3. If you have a donation section on Nexus, the user will still see it before they decide to download the mod.
@@ -68,5 +69,10 @@ There may be some of you that aren't a fan of this, but let me assuage your fear
 Players are already going through this same cycle, just very slowly and painfully. The project is an effort to bridge the gap until better alternatives are available.
 
 # Notes
+
 ### **Download Speed**
+
 > Right now only Slow Download on Nexus Mods is supported, but there might be an option in the future to check if the user is Premium and use the faster download option.
+### **Building Presets/Mod Lists**
+
+> I'll be working on a guide to explain how the instructions work in the near future if there is interest.
