@@ -1,0 +1,66 @@
+displayName: "Debug"
+name: "debug"
+lastModified: 1657996494
+listUrl: "None"
+downloadSteps:
+  - type: "nexus"
+    modId: 45096
+    siteFileName: "Patch for Purists"
+  # UMOPP
+  - type: "nexus"
+    modId: 43931
+    siteFileName: "Unofficial Morrowind Official Plugins Patched"
+  # MOP
+  - type: "nexus"
+    modId: 45384
+    siteFileName: "Morrowind Optimization Patch"
+  # Graphic Herbalism
+  - type: "nexus"
+    modId: 46599
+    siteFileName: "Graphic Herbalism MWSE - OpenMW"
+  - type: "nexus"
+    modId: 46599
+    siteFileName: "GH Patches and Replacers"
+
+unpackSteps:
+  - modId: 45096
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 43931
+    fileIndex: 0
+    type: "DATA"
+    data: ["08 UMOPP Merged", "02 bitter coast sounds"]
+
+  - modId: 45384
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "01 Lake Fjalding Anti-Suck", "02 Weapon Sheathing Patch"]
+
+  - modId: 46599
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core + Vanilla Meshes", "01 Optional - Smoothed Meshes"]
+  - modId: 46599
+    fileIndex: 1
+    type: "DATA"
+    data: ["00 Correct UV Ore + README"]
+
+  #==========
+  # Master Content
+  - modId: 0
+    fileIndex: 0
+    type: "CONTENT"
+    data: 
+      - "Patch for Purists.esm"
+      - "Patch for Purists - Semi-Purist Fixes.ESP"
+      - "Patch for Purists - Book Typos.ESP"
+      - "Unofficial Morrowind Official Plugins Patched.ESP"
+      - "correctUV Ore Replacer_respawning.esp"
+      - "Lake Fjalding Anti-Suck.ESP"
+
+  - modId: 0
+    fileIndex: 0
+    type: "DELTA_PLUGIN"
+    data: []

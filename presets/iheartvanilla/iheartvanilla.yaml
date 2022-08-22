@@ -66,10 +66,7 @@ downloadSteps:
   - type: "nexus"
     modId: 49391
     siteFileName: "Vanilla Inspired Water for Open MW"
-# automatically download delta plugin
-# or not if the user adds an optional path
-# Maybe allow tags like "Patch" for routing to different folders? 
-# tag: "Patch" | "Performance" | "Gameplay" | "Fixes" etc
+    
 unpackSteps:
   - modId: 45096
     fileIndex: 0

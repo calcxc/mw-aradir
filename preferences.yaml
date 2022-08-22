@@ -1,11 +1,14 @@
-preset: "modernredux" # or null
+preset: "modernredux"
 nodownload: false
 sharedInstallFolder: true
 
-# if any are null or empty, error is thrown
-downloads: "C:/Users/k1kok/Downloads/vanillatest"
-modinstall: "D:/mods/openMW"
-gamedata: "D:/SteamLibrary/steamapps/common/Morrowind"
-settings: "C:/Users/k1kok/Documents/My Games/OpenMW"
-openmw: "C:/Users/k1kok/Downloads/OpenMWJul22"
-delta: "C:/Users/k1kok/Downloads/DeltaPlugin"
+# These are suggested defaults
+# Replace anything in <> with the relevant information
+# Any left blank are because they can be installed anywhere
+# driveletter will likely be C, but not always
+downloads: "<driveletter>:/Users/<username>/Downloads"
+modinstall: "<driveletter>:/mods/openMW"
+gamedata: "<drive letter>:/SteamLibrary/steamapps/common/Morrowind" # If you use GOG or another source, replace all of this
+settings: "<drive letter>:/Users/<username>/Documents/My Games/OpenMW"
+openmw: ""
+delta: ""

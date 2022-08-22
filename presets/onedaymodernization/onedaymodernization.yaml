@@ -1,0 +1,590 @@
+displayName: "One Day Modernization"
+name: "onedaymodernization"
+lastModified: 1657996494
+listUrl: "https://modding-openmw.com/lists/one-day-morrowind-modernization/"
+# description?
+downloadSteps:
+  - type: "nexus"
+    modId: 45096
+    siteFileName: "Patch for Purists"
+  - type: "nexus"
+    modId: 43931
+    siteFileName: "Unofficial Morrowind Official Plugins Patched"
+  - type: "nexus"
+    modId: 47588
+    siteFileName: "Expansion Delay"
+  - type: "nexus"
+    modId: 45384
+    siteFileName: "Morrowind Optimization Patch"
+  - type: "nexus"
+    modId: 46599
+    siteFileName: "Graphic Herbalism MWSE - OpenMW"
+  - type: "nexus"
+    modId: 46599
+    siteFileName: "GH Patches and Replacers"
+  - type: "nexus"
+    modId: 46747
+    siteFileName: "Properly Smoothed Meshes"
+  - type: "nexus"
+    modId: 45399
+    siteFileName: "Project Atlas"
+  - type: "nexus"
+    modId: 45399
+    siteFileName: "Textures - MET"
+
+  - type: "nexus" 
+    modId: 43266
+    siteFileName: "RR - Better Meshes V1.4"
+  # Tamriel Data
+  - type: "nexus"
+    modId: 44537
+    siteFileName: "Tamriel Data (HD)"
+  
+  # Tamriel Rebuilt
+  - type: "nexus"
+    modId: 42145
+    siteFileName: "Tamriel Rebuilt"
+  - type: "nexus"
+    modId: 42145
+    siteFileName: "Tamriel Rebuilt 21.01 hotfix 1"
+
+  - type: "nexus"
+    modId: 49042
+    siteFileName: "OAAB_Data"
+
+  - type: "nexus"
+    modId: 45741
+    siteFileName: "RopeFenceFix 1.4"
+  - type: "nexus"
+    modId: 46221
+    siteFileName: "Morrowind Enhanced Textures 5.2"
+  - type: "nexus"
+    modId: 46221
+    siteFileName: "Interface and main menu"
+
+  - type: "nexus"
+    modId: 43486
+    siteFileName: "HQ Textures"
+
+  - type: "nexus"
+    modId: 47803
+    siteFileName: "Galleo Races Redone Pluginless_v1.0"
+
+  # ??
+  - type: "nexus"
+    modId: 50093
+    siteFileName: "Familiar Faces by Caleb"
+
+
+  - type: "nexus"
+    modId: 42554
+    siteFileName: "Apel fire retexture v2"
+
+  - type: "nexus"
+    modId: 50092
+    siteFileName: "Apel Fire Retexture Patch"
+
+  - type: "nexus"
+    modId: 45424
+    siteFileName: "Better Waterfalls"
+
+
+  # Landscape Retexture
+  - type: "nexus"
+    modId: 42575
+    siteFileName: "Landscape Retexture 2K"
+  - type: "nexus"
+    modId: 42575
+    siteFileName: "Bloodmoon Landscape Retexture"
+  - type: "nexus"
+    modId: 42575
+    siteFileName: "Landscape retexture - OpenMW Normal map and Parallax patch"
+
+  - type: "nexus"
+    modId: 46232
+    siteFileName: "OpenMW Containers Animated"
+
+  # Caverns bump mapped
+  - type: "nexus"
+    modId: 42412
+    siteFileName: "Caverns Bump mapped"
+  - type: "nexus"
+    modId: 42412
+    siteFileName: "Bloodmoon - Caverns Bump mapped"
+
+  - type: "nexus"
+    modId: 50137
+    siteFileName: "CreaturesMeshes"
+
+  - type: "nexus"
+    modId: 49205
+    siteFileName: "Wares"
+  - type: "nexus"
+    modId: 49205
+    siteFileName: "OAAB WARES"
+
+  - type: "nexus"
+    modId: 49997
+    siteFileName: "Wares fpr npcs" # 00 Vv + TR
+
+  - type: "nexus"
+    modId: 43181
+    siteFileName: "Hold it"
+
+  - type: "nexus"
+    modId: 49251
+    siteFileName: "FF"
+  - type: "nexus"
+    modId: 49251
+    siteFileName: "OpenMW book fix"
+
+  - type: "nexus"
+    modId: 43530
+    siteFileName: "AoVv Telvanni HQ"
+
+  - type: "nexus"
+    modId: 43113
+    siteFileName: "Speechcraft Rebalance"
+
+  - type: "nexus"
+    modId: 44972
+    siteFileName: "CarryOn"
+
+    # 45967
+  - type: "nexus"
+    modId: 45967
+    siteFileName: "Auto Ammo Equip for OpenMW"
+
+    # The Dream is the Door
+  - type: "nexus"
+    modId: 47423
+    siteFileName: "The Dream is the Door"
+
+  - type: "nexus"
+    modId: 43380
+    siteFileName: "MAGIC DIVERSITY v1.0"
+
+  - type: "nexus"
+    modId: 46733
+    siteFileName: "Remiros' Groundcover"
+
+  # Skyrim UI Overhaul
+  - type: "nexus"
+    modId: 43039
+    siteFileName: "Skyrim UI Overhaul"
+  - type: "nexus"
+    modId: 43039
+    siteFileName: "Cursor Fix for Skyrim UI overhaul for Morrowind"
+
+  - type: "nexus"
+    modId: 46069
+    siteFileName: "WeaponSheathing1.6-OpenMW"
+  # the lists added Morrowind Optimization Patch again, but we just need to add the sheathing patch from the main download to data
+  - type: "nexus"
+    modId: 45886
+    siteFileName: "Glow in the Dahrk"
+  # Load the Project Atlas Glow in the Dahrk patch data after Glow in the Darhk itself
+  - type: "nexus"
+    modId: 50087
+    siteFileName: "Nords shut your windows"
+  - type: "nexus"
+    modId: 46854
+    siteFileName: "Fonts"
+  - type: "nexus"
+    modId: 46854
+    siteFileName: "HD texture buttons (English)"
+  - type: "nexus"
+    modId: 49662
+    siteFileName: "Big Icons - OpenMW"
+  - type: "nexus"
+    modId: 50534
+    siteFileName: "Cantons_on_the_Global_Map_v1.1"
+  - type: "nexus"
+    modId: 49391
+    siteFileName: "Vanilla Inspired Water for Open MW"
+# automatically download delta plugin
+# or not if the user adds an optional path
+# Maybe allow tags like "Patch" for routing to different folders? 
+# tag: "Patch" | "Performance" | "Gameplay" | "Fixes" etc
+unpackSteps:
+  - modId: 45096
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 43931
+    fileIndex: 0
+    type: "DATA"
+    data: ["09 UMOPP Compatibility Merged"]
+  - modId: 47588
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 45384
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "01 Lake Fjalding Anti-Suck", "04 Better Vanilla Texture", "02 Weapon Sheathing Patch"]
+  - modId: 46599
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core + Vanilla Meshes", "01 Optional - Smoothed Meshes"]
+  - modId: 46599
+    fileIndex: 1
+    type: "DATA"
+    data: ["00 Correct UV Ore + README", "01 Pherim's Replacer", "15 Apel's Azura's Coast"]
+  - modId: 46747
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "03 Higher Poly Glowing Candles", "05 Beaker, Flasks - clear glass"]
+
+  - modId: 45399
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "05 Wood Poles - Hi-Res Texture"]
+  - modId: 45399
+    fileIndex: 1
+    type: "DATA"
+    data: ["01 Textures - MET"]
+
+  - modId: 43266
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 - Main Files", "02 - Optional - Animation Fix for Dwemer Mesh Improvement mod", "04 - Optional - Skooma Pipe 1"]
+  
+  # Tamriel Data
+  - modId: 44537
+    fileIndex: 0
+    type: "DATA"
+    data: ["Core"]
+
+  - modId: 44537
+    fileIndex: 0
+    type: "DATA_DIRECT"
+    data: ["fallback-archive=PT_Data.bsa", "fallback-archive=TR_Data.bsa"]
+
+  # Tamriel Rebuilt
+  - modId: 42145
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "01 Faction Integration", "03 Travel Network for Core and Vvardenfell"]
+  - modId: 42145
+    fileIndex: 1
+    type: "DATA"
+    data: ["00 Core", "01 Faction Integration"]
+
+  - modId: 49042
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "01 Epic Plants Patch"]
+
+  - modId: 45741
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 46221
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 46221
+    fileIndex: 1
+    type: "DATA"
+    data: [""]
+  
+  - modId: 43486
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 47803
+    fileIndex: 0
+    type: "DATA"
+    data: ["Data Files"]
+  - modId: 42554
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 50092
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  # better waterfalls
+  - modId: 45424
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "02 Tamriel Rebuilt Water"]
+
+
+  # landscape retexture
+  - modId: 42575
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 42575
+    fileIndex: 1
+    type: "DATA"
+    data: [""]
+  - modId: 42575
+    fileIndex: 2
+    type: "DATA"
+    data: ["Landscape retexture Normal map & parallax"]
+
+  - modId: 50093
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 46232
+    fileIndex: 0
+    type: "DATA"
+    data: ["Containers Animated"]
+
+
+  # Bloodmoon - Caverns Bump mapped 1.0
+  - modId: 42412
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+  - modId: 42412
+    fileIndex: 1
+    type: "DATA"
+    data: ["Bloodmoon - Caverns Bump mapped 1.0"]
+
+  - modId: 50137
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 49205
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Master file", "01 TR"]
+  - modId: 49205 # OAAB WARES
+    fileIndex: 1
+    type: "DATA"
+    data: [""]
+
+  - modId: 49997
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Vv + TR"]
+
+  - modId: 43181
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "01 Weapon Sheathing", "02 Addons"]
+
+  - modId: 49251
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "01 TR addon", "04 Heads Vanilla"]
+  - modId: 49251
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 43530
+    fileIndex: 0
+    type: "DATA"
+    data: ["HQ"]
+
+  - modId: 43113
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 44972
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 45967
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 47423
+    fileIndex: 0
+    type: "DATA"
+    data: [""]
+
+  - modId: 43380
+    fileIndex: 0
+    type: "DATA"
+    data: ["Magic Diversity"]
+
+  - modId: 46733
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core OpenMW", "01b Thicker Grass OpenMW", "03 TR Plugins"]
+
+
+
+  - modId: 46069
+    fileIndex: 0
+    type: "DATA"
+    data: ["Data Files"]
+  - modId: 46069
+    fileIndex: 0
+    type: "SETTINGS"
+    data:
+      - "shield sheathing = true"
+      - "weapon sheathing = true"
+      - "use additional anim sources = true"
+  - modId: 45384
+    fileIndex: 0
+    type: "DATA"
+    data: ["02 Weapon Sheathing Patch"]
+  - modId: 45886
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "03 Telvanni Dormers on Vvardenfell", "04 Raven Rock Glass Windows"]
+  - modId: 45399
+    fileIndex: 0
+    type: "DATA"
+    data: ["06 Glow in the Dahrk Patch"]
+  - modId: 50087
+    fileIndex: 0
+    type: "DATA"
+    data: ["00 Core", "03 Vanilla style sunrays"]
+  - modId: 46854
+    fileIndex: 0
+    type: "INSTALL_TO_OMW_FOLDER"
+    data: ["Fonts", ""]
+  - modId: 46854
+    fileIndex: 1
+    type: "DATA"
+    data: ["HiResUI"]
+  - modId: 49662
+    fileIndex: 0
+    type: "DATA"
+    data: ["07 8X Textured"]
+  - modId: 50534
+    fileIndex: 0
+    type: "DATA"
+    data: ["Data Files"]
+
+  - modId: 43039
+    fileIndex: 0
+    type: "DATA"
+    data: ["Data Files"]
+  - modId: 43039
+    fileIndex: 1
+    type: "DATA"
+    data: [""]
+  - modId: 43039
+    fileIndex: 0
+    type: "DATA_DIRECT"
+    data:
+    - "fallback=FontColor_color_normal,150,150,150"
+    - "fallback=FontColor_color_normal_over,200,200,200"
+    - "fallback=FontColor_color_normal_pressed,255,255,255"
+    - "fallback=FontColor_color_active,255,255,255"
+    - "fallback=FontColor_color_active_over, 150, 150,150"
+    - "fallback=FontColor_color_active_pressed,255,255,255"
+    - "fallback=FontColor_color_disabled,100,100,100"
+    - "fallback=FontColor_color_disabled_over,140,140,140"
+    - "fallback=FontColor_color_disabled_pressed,100,100,100"
+    - "fallback=FontColor_color_link,58,78,181"
+    - "fallback=FontColor_color_link_over,91,112,222"
+    - "fallback=FontColor_color_link_pressed,97,106,156"
+    - "fallback=FontColor_color_journal_link,37,49,112"
+    - "fallback=FontColor_color_journal_link_over,58,77,175"
+    - "fallback=FontColor_color_journal_link_pressed,112,126,207"
+    - "fallback=FontColor_color_journal_topic,0,0,0"
+    - "fallback=FontColor_color_journal_topic_over,58,77,175"
+    - "fallback=FontColor_color_journal_topic_pressed,112,126,207"
+    - "fallback=FontColor_color_answer, 181, 58,58"
+    - "fallback=FontColor_color_answer_over,230,80,80"
+    - "fallback=FontColor_color_answer_pressed,155,80,80"
+    - "fallback=FontColor_color_header,255,255,255"
+    - "fallback=FontColor_color_notify,100,100,100"
+    - "fallback=FontColor_color_big_normal,200,200,200"
+    - "fallback=FontColor_color_big_normal_over,255,255,255"
+    - "fallback=FontColor_color_big_normal_pressed,150,150,150"
+    - "fallback=FontColor_color_big_link,255,255,255"
+    - "fallback=FontColor_color_big_link_over,255,255,255"
+    - "fallback=FontColor_color_big_link_pressed,150,150,150"
+    - "fallback=FontColor_color_big_answer, 200,200,200"
+    - "fallback=FontColor_color_big_answer_over,255,255,255"
+    - "fallback=FontColor_color_big_answer_pressed,150,150,150"
+    - "fallback=FontColor_color_big_header,200,200,200"
+    - "fallback=FontColor_color_big_notify,200,200,200"
+    - "fallback=FontColor_color_background,0,0,0"
+    - "fallback=FontColor_color_focus,80,80,80"
+    - "fallback=FontColor_color_health,200,60,30"
+    - "fallback=FontColor_color_magic,53,69,159"
+    - "fallback=FontColor_color_fatigue,0,150,60"
+    - "fallback=FontColor_color_misc,0,205,205"
+    - "fallback=FontColor_color_weapon_fill,200,60,30"
+    - "fallback=FontColor_color_magic_fill,200,60,30"
+    - "fallback=FontColor_color_positive,35,219,109"
+    - "fallback=FontColor_color_negative,200,60,30"
+    - "fallback=FontColor_color_count,255,255,255"
+  - modId: 43039
+    fileIndex: 0
+    type: "SETTINGS"
+    data: ["stretch menu background = true"]
+  - modId: 0
+    fileIndex: 0
+    type: "SETTINGS"
+    data:
+      - "distant terrain = true"
+      - "object paging active grid = true"
+      - "object paging min size = 0.023"
+
+  - modId: 49391
+    fileIndex: 0
+    type: "INSTALL_TO_OMW_FOLDER"
+    data: ["", "resources/shaders"]
+  - modId: 49391
+    fileIndex: 0
+    type: "RESOURCES"
+    data: ["", "resources/shaders"]
+  - modId: 0
+    fileIndex: 0
+    type: "CONTENT"
+    data: 
+      - "Patch for Purists.esm"
+      - "Patch for Purists - Semi-Purist Fixes.ESP"
+      - "Patch for Purists - Book Typos.ESP"
+      - "Expansion Delay.ESP"
+      - "Unofficial Morrowind Official Plugins Patched.ESP"
+      - "correctUV Ore Replacer_respawning.esp"
+      - "Containers Animated.esp"
+      - "Lake Fjalding Anti-Suck.ESP"
+      - "Tamriel_Data.esm"
+      - "TR_Mainland.esm"
+      - "TR_Mainland_2101_hotfix.ESP"
+      - "TR_Travels.esp"
+      - "TR_Factions.esp"
+      - "OAAB_Data.esm"
+
+      - "Wares-base.esm"
+      - "Wares_TR.ESP"
+      - "OAAB for Wares.ESP"
+      - "Wares_NPC_TR.esp"
+      - "Hold_it_main_WS.ESP"
+      - "Hold it - TR addon.ESP"
+      - "F&F_base.esm"
+      - "F&F_TR.ESP"
+      - "F&F_heads_vanilla.ESP"
+      - "SpeechcraftBalance.ESP"
+      - "CarryOn.omwaddon"
+      - "Auto Ammò Equip for OpenMW.omwaddon"
+      - "The Dream is the Door.ESP"
+      - "Magic Diversity NO SOUND.ESP"
+      - "groundcover=Rem_GL.esp"
+      - "groundcover=Rem_WG.esp"
+      - "groundcover=Rem_AL.esp"
+      - "groundcover=Rem_BC.esp"
+      - "groundcover=Rem_Solstheim.esp"
+      - "groundcover=Rem_AC.esp"
+      - "groundcover=Rem_AI.esp"
+
+      - "GITD_Telvanni_Dormers.ESP"
+      - "GITD_WL_RR_Interiors.esp"
+      - "Cantons_on_the_Global_Map_v1.1.esp"
+  - modId: 0
+    fileIndex: 0
+    type: "DELTA_PLUGIN"
+    data: []

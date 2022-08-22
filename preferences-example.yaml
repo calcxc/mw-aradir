@@ -1,0 +1,10 @@
+preset: "modernredux"
+nodownload: false
+sharedInstallFolder: true
+
+downloads: "C:/Users/ausername/Downloads/vanillatest" # where aradir will look for mod archives
+modinstall: "D:/mods/openMW" # where mods go when extracted
+gamedata: "D:/SteamLibrary/steamapps/common/Morrowind" # Morrowind gamedata folder
+settings: "C:/Users/ausername/Documents/My Games/OpenMW" # OpenMW settings folder
+openmw: "C:/Users/ausername/Downloads/OpenMW48" # OpenMW executable folder
+delta: "C:/Users/ausername/Downloads/DeltaPlugin" # DeltaPlugin folder

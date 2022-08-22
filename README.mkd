@@ -1,5 +1,7 @@
 # Aradir - A Fast Passage into Modded OpenMW
 
+<a href='https://ko-fi.com/kalculate' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
 
 ## **Background**
 
@@ -10,6 +12,10 @@ This is a solution to handle large lists of mods (50, 90, 100 200+) so that you 
 With Aradir, after someone has implemented a list of mods, they should be easily replicated on your system without copying/bundling mods. Authors still have agency and users have a quicker process so they can start playing the game they love.
 
 > The full name for Aradir is `Seyda Aradir` meaning "Fast Passage" using a fan-made word for "Fast" in Dunmeris, the language of the Dunmer.
+
+## Goals
+1. No user dependencies other than what would be required already (OpenMW, copy of the game, and DeltaPlugin), excluding Chrome.
+2. Expedited (but not skipped) download and config process that works every time.
 
 ## **Requirements**
 
@@ -64,6 +70,28 @@ Mac and Linux support could be fairly easy, but I'm focused on getting Windows s
   > This allows you to manually skip the download phase. Mainly for debug purposes.
 
 
+## Current Lists
+
+### Modern Redux
+
+**Status: Somewhat Stable**
+This is a list of my own making, mainly by going through I Heart Vanilla and adding more when I came across them.
+
+Issues: The alley in front of Caius's house in Balmora is messed up because I love Main Quest Overhaul, but it conflicts with Beautiful Cities of Skyrim and the patch didn't seem to work.
+
+### I Heart Vanilla
+
+**Status: Stable**
+This list is mostly complete and should work as expected
+
+### One Day Modernization
+
+**Status: Possibly Unstable**
+One Day Modernization was my original target for Aradir, but ended up having a few quirks of setup that I didn't want to implement considering most of the mods in the list dont require non-nexus downloads and managing certain other aspects.
+
+I honestly need to get back to this list as at the moment it only has 53 of the 90 mods in the modding-openmw list.
+### 
+
 ## A Note to Mod Creators
 
 There may be some of you that aren't a fan of this, but let me assuage your fears.
@@ -75,6 +103,7 @@ There may be some of you that aren't a fan of this, but let me assuage your fear
 
 Players are already going through this same cycle, just very slowly and painfully. The project is an effort to bridge the gap until better alternatives are available.
 
+
 # Notes
 
 ### **Download Speed**
@@ -83,3 +112,6 @@ Players are already going through this same cycle, just very slowly and painfull
 ### **Building Presets/Mod Lists**
 
 > I'll be working on a guide to explain how the instructions work in the near future if there is interest.
+
+### **Reimplementation**
+> If anyone wants to take a crack at building a better version, please do! I'm already considering rebuilding it in a new language with the information I got from building the Go version and I think I could do a much better job. But for now, this works and i'll be using it to tweak and launch my own mod lists until there's a better option.
