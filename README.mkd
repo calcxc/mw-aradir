@@ -7,7 +7,7 @@
 
 Mod lists for OpenMW are incredibly time consuming to download and configure correctly, even when they've been replicated time and time again. 
 
-This is a solution to handle large lists of mods (50, 90, 100 200+) so that you aren't spending 4-16 hours trying to enjoy a modernized version of the amazing game that is Morrowind.
+This is a solution to handle large lists of mods (50, 90, 100, 200+) so that you aren't spending 4-16 hours trying to enjoy a modernized version of the amazing game that is Morrowind.
 
 With Aradir, after someone has implemented a list of mods, they should be easily replicated on your system without copying/bundling mods. Authors still have agency and users have a quicker process so they can start playing the game they love.
 
@@ -16,6 +16,7 @@ With Aradir, after someone has implemented a list of mods, they should be easily
 ## Goals
 1. No user dependencies other than what would be required already (OpenMW, copy of the game, and DeltaPlugin), excluding Chrome.
 2. Expedited (but not skipped) download and config process that works every time.
+3. Provide mod list maintainers a set of instructions that don't need to be manually implemented for every user.
 
 ## **Requirements**
 
@@ -39,16 +40,18 @@ Mac and Linux support could be fairly easy, but I'm focused on getting Windows s
 > These steps will make maintaining your mods much easier.
 
 1. Open Chrome and navigate to Settings > Downloads
-2. Set your default download location to the folder where you want your mod downloads to go, ie "Users/Downloads/OpenMW Mods"
+2. Set your default download location to the folder where you want your mod downloads to go, ie "Users/\<username\>/Downloads/OpenMW Mods"
 3. Close Chrome
 
 ## **Mandatory Steps**
 
 1. Download DeltaPlugin and extract it into a folder, keep this path for later.
-2. Download the Aradir and extract it into a folder so that the executable and other files are together.
-3. Open Chrome and sign into Nexus Mods, then exit.
+2. Download Aradir and extract it into a folder so that the executable and other files are together. ie `Downloads/Aradir`
+3. Open Chrome and sign into Nexus Mods, then exit. (Can work without exiting, but just in case)
 4. Open `preferences.yaml` and add the required paths.
-5. If you've filled in all of the paths correctly and don't need to pass arguments, double click on the `aradir` executable and that will start the process!
+5. If you've filled in all of the paths correctly and don't need to pass arguments, double click on the `mw-aradir` executable and that will start the process!
+
+Aradir will guide you through the download phase, then configure and launch the preset you specified in `preferences.yaml`. You can change which preset by changing the preset field to `"iheartvanilla"`, for example.
 
 ## **Paths**
 
@@ -101,7 +104,7 @@ There may be some of you that aren't a fan of this, but let me assuage your fear
 3. If you have a donation section on Nexus, the user will still see it before they decide to download the mod.
 4. I'd love to work more creator identity (names and links) into the UI if I can in future to make sure you all get the eyes you deserve for the hard work you've put into building amazing content for Morrowind.
 
-Players are already going through this same cycle, just very slowly and painfully. The project is an effort to bridge the gap until better alternatives are available.
+Players are already going through this same cycle, just very slowly and painfully. This project is an effort to bridge the gap until better alternatives are available.
 
 
 # Notes
@@ -115,3 +118,12 @@ Players are already going through this same cycle, just very slowly and painfull
 
 ### **Reimplementation**
 > If anyone wants to take a crack at building a better version, please do! I'm already considering rebuilding it in a new language with the information I got from building the Go version and I think I could do a much better job. But for now, this works and i'll be using it to tweak and launch my own mod lists until there's a better option.
+
+
+## To Do
+- [ ] Error handling & reporting
+- [ ] Mac Support
+- [ ] Linux Support
+- [ ] Base UI
+- [ ] Guide for creating presets (explanation of instructions/DSL)
+- [ ] Preset building UI
