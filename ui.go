@@ -99,8 +99,8 @@ func RunTerminal() {
 
 func RunOpenMW(path string, configPath string) {
 	config := fmt.Sprint("--config=", configPath)
-	replace := fmt.Sprint("--replace=config")
-	cmd := exec.Command(path, config, replace)
+	// replace := fmt.Sprint("--replace=config")
+	cmd := exec.Command(path, config)
 	err := cmd.Start()
 	if err != nil {
 		fmt.Println(err.Error())
