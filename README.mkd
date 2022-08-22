@@ -78,6 +78,7 @@ Aradir will guide you through the download phase, then configure and launch the 
 ### Modern Redux
 
 **Status: Somewhat Stable**
+
 This is a list of my own making, mainly by going through I Heart Vanilla and adding more when I came across them.
 
 Issues: The alley in front of Caius's house in Balmora is messed up because I love Main Quest Overhaul, but it conflicts with Beautiful Cities of Skyrim and the patch didn't seem to work.
@@ -85,11 +86,13 @@ Issues: The alley in front of Caius's house in Balmora is messed up because I lo
 ### I Heart Vanilla
 
 **Status: Stable**
+
 This list is mostly complete and should work as expected
 
 ### One Day Modernization
 
 **Status: Possibly Unstable**
+
 One Day Modernization was my original target for Aradir, but ended up having a few quirks of setup that I didn't want to implement considering most of the mods in the list dont require non-nexus downloads and managing certain other aspects.
 
 I honestly need to get back to this list as at the moment it only has 53 of the 90 mods in the modding-openmw list.
