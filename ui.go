@@ -82,7 +82,6 @@ func RunTerminal() {
 	downloadFolder := prefs.Downloads
 	var config = ModListConfig{}
 	var manifest = ManifestListConfig{}
-	fmt.Println(prefs.Nodownload)
 	if !prefs.Nodownload {
 		config, manifest = DownloadMods(configFileName, downloadFolder)
 	} else {
@@ -100,38 +99,10 @@ func RunTerminal() {
 
 func RunOpenMW(path string, configPath string) {
 	config := fmt.Sprint("--config=", configPath)
-	cmd := exec.Command(path, config)
+	replace := fmt.Sprint("--replace=config")
+	cmd := exec.Command(path, config, replace)
 	err := cmd.Start()
 	if err != nil {
 		fmt.Println(err.Error())
 	}
 }
-
-func RunJS() {
-	// --window-size=x,y
-	/*
-		u := launcher.New().
-						Set("window-size", "800,600")
-	*/
-
-}
-
-/*
-Standard running the game
-	aradir.exe -preset=modernredux
-		Runs download
-		Runs unpack
-		Runs game
-
-Running nodownload for debugging
-	aradir.exe -preset=modernredux -nodownload
-		Runs only unpack
-		Runs game
-
-Running from preset only with different preset
-	aradir.exe -preset=somethingelse -nodownload
-		Runs unpack
-		Runs with different preset name from preferences.yaml
-		Runs game
-
-*/

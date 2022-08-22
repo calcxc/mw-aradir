@@ -16,6 +16,7 @@ With Aradir, after someone has implemented a list of mods, they should be easily
 1. Recent version of [Google Chrome](https://www.google.com/chrome/)
 2. Clean version of [OpenMW 0.48](https://openmw.org/downloads/)
 3. [DeltaPlugin](https://gitlab.com/bmwinger/delta-plugin/-/releases) (for most mod lists)
+4. Non-Premium Nexus Mods account (This might be changed in the future)
 
 ## **Support**
 
@@ -55,6 +56,12 @@ Mac and Linux support could be fairly easy, but I'm focused on getting Windows s
 * `openmw` is where the OpenMW executable is, which Aradir needs to launch the game with custom configs and mod lists.
 * `delta` is the path to the DeltaPlugin executable needed to merge mod data for many mod lists.
 
+### Options
+
+* `sharedInstallFolder`
+  > This is to allow you to have a shared folder where mod data is held so that you dont have multiple copies of large mods, like Tamriel Data, repeated in many directories, using lots of space for no reason.
+* `nodownload`
+  > This allows you to manually skip the download phase. Mainly for debug purposes.
 
 
 ## A Note to Mod Creators

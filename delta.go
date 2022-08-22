@@ -29,7 +29,6 @@ func CreateDeltaPlugin(path string, configPath string, modinstallFolder string) 
 	checkError(err)
 	command := fmt.Sprint(path, "/delta_plugin.exe")
 	if file.IsDir() {
-		// look inside for executable
 		files, err := ioutil.ReadDir(path)
 		checkError(err)
 		for _, dirEntry := range files {
@@ -41,7 +40,6 @@ func CreateDeltaPlugin(path string, configPath string, modinstallFolder string) 
 	} else if PathIncludesArchive(path) {
 		// extract into a folder beside archive and run it
 	} else if strings.Contains(path, ".exe") {
-		// run exe
 		RunDelta(command, configPath, modinstallFolder)
 	} else {
 		log.Fatal("Delta Plugin not found.")

@@ -12,10 +12,6 @@ import (
 
 const NEXUS_MODS_URL = "https://www.nexusmods.com/morrowind/mods/"
 
-// navigate to settings/Downloads in Chrome
-// disable ask "Ask where to save each file before downloading"
-// Close settings and reopen to make sure it saved
-
 func createRodHandler() *rod.Browser {
 	u := launcher.NewUserMode().MustLaunch()
 
@@ -36,8 +32,6 @@ func createJSSelector(elementType string, replaceString string) string {
 		return el.textContent.includes(text);
 	});
 	}`
-	// ELEMENTTYPE = dt, div, span, etc
-	// TEXTCONTENT = what to look for inside
 
 	selector = strings.Replace(selector, "TEXTCONTENT", replaceString, 1)
 	selector = strings.Replace(selector, "ELEMENTTYPE", elementType, 1)
@@ -48,7 +42,6 @@ func createJSSelector(elementType string, replaceString string) string {
 func TryNexusDownload(page *rod.Page, siteFileName string) string {
 	tabs := page.MustElement(".modtabs")
 	tabs.MustElementR("span", `FILES`).MustClick()
-	// page.MustElementR("span", "/Manual/i").MustParent() //.MustClick()
 
 	selector := createJSSelector("dt", siteFileName)
 	section := page.MustElement("#mod_files").MustElementByJS(selector).MustNext()
@@ -134,14 +127,7 @@ func DownloadMods(listName string, downloadFolder string) (ModListConfig, Manife
 			continue
 		}
 		fileName := ""
-		/* 		stepCount := getDownloadCount(preset.DownloadSteps, step.ModId)
-		   		matchedRecords := filterByModId(manifest.Records, step.ModId)
-		   		if record := matchedRecords[stepCount - 1]; record != nil {
 
-		   		} */
-		// check manifest for modId
-		// check
-		// set filename
 		nextPage(page, fmt.Sprint(NEXUS_MODS_URL, step.ModId, "/files"))
 		if step.Type == "nexus" {
 			fileName = TryNexusDownload(page, step.SiteFileName)
@@ -154,7 +140,7 @@ func DownloadMods(listName string, downloadFolder string) (ModListConfig, Manife
 			FileDisplayName: step.SiteFileName,
 		})
 
-		time.Sleep(500 * time.Millisecond) // wait half second before transitioning
+		time.Sleep(500 * time.Millisecond) // wait half a second before transitioning
 	}
 
 	WriteManifest(&manifest, listName)

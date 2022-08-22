@@ -24,7 +24,6 @@ var SUPPORTED_ARCHIVE_FORMATS = [3]string{".zip", ".7z", ".rar"}
 func checkError(e error) {
 	if e != nil {
 		fmt.Println(e.Error())
-		// panic(e)
 	}
 }
 
@@ -479,7 +478,7 @@ func UnpackMods(config ModListConfig, manifest ManifestListConfig, downloadFolde
 			UnpackContentStep(configPath, step.Data)
 			configLines, contentLines = LoadBlankConfigArrays(configPath)
 		default:
-			fmt.Println("Oops")
+			log.Fatal("Unknown instruction type.")
 		}
 	}
 }

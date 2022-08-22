@@ -184,7 +184,6 @@ func ReadPrefs(fileName string) PreferencesConfig {
 	return preset
 }
 
-// could be generic
 func ReadManifest(fileName string) ManifestListConfig {
 	var manifest = ManifestListConfig{}
 	file, err := ioutil.ReadFile(fmt.Sprint("./", "manifests/", fileName))
